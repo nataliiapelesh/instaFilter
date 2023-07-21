@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D13784F82A6AAC6800379B12 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13784F72A6AAC6800379B12 /* ImageSaver.swift */; };
+		D13784FA2A6AAC7500379B12 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13784F92A6AAC7500379B12 /* ImagePicker.swift */; };
 		D1F293BB29D4B9990071CC08 /* InstafilterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F293BA29D4B9990071CC08 /* InstafilterApp.swift */; };
 		D1F293BD29D4B9990071CC08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F293BC29D4B9990071CC08 /* ContentView.swift */; };
 		D1F293BF29D4B99A0071CC08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1F293BE29D4B99A0071CC08 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D13784F72A6AAC6800379B12 /* ImageSaver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageSaver.swift; path = "../../Desktop/My works/Instafilter/Instafilter/ImageSaver.swift"; sourceTree = "<group>"; };
+		D13784F92A6AAC7500379B12 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagePicker.swift; path = "../../Desktop/My works/Instafilter/Instafilter/ImagePicker.swift"; sourceTree = "<group>"; };
 		D1F293B729D4B9990071CC08 /* Instafilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instafilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F293BA29D4B9990071CC08 /* InstafilterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstafilterApp.swift; sourceTree = "<group>"; };
 		D1F293BC29D4B9990071CC08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				D1F293BA29D4B9990071CC08 /* InstafilterApp.swift */,
 				D1F293BC29D4B9990071CC08 /* ContentView.swift */,
+				D13784F72A6AAC6800379B12 /* ImageSaver.swift */,
+				D13784F92A6AAC7500379B12 /* ImagePicker.swift */,
 				D1F293BE29D4B99A0071CC08 /* Assets.xcassets */,
 				D1F293C029D4B99A0071CC08 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1F293BD29D4B9990071CC08 /* ContentView.swift in Sources */,
+				D13784FA2A6AAC7500379B12 /* ImagePicker.swift in Sources */,
+				D13784F82A6AAC6800379B12 /* ImageSaver.swift in Sources */,
 				D1F293BB29D4B9990071CC08 /* InstafilterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
